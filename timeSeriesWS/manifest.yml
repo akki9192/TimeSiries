@@ -1,0 +1,7 @@
+---
+applications:
+- name: timeSeriesWS
+  memory: 512M
+  instances: 1
+  buildpack: java_buildpack
+  path: target/gs-rest-service-0.0.1.jar
